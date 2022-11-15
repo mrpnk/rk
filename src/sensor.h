@@ -26,7 +26,7 @@ namespace rk
 		}
 
 	private:
-		double lastT = -999;
+		double lastT = -std::numeric_limits<double>::max();
 		std::vector<vec<1+2*N>> data;
 	};
 

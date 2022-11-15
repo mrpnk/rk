@@ -20,7 +20,7 @@ namespace rk
 		const double c5, a51, a52, a53, a54;
 		const double c6, a61, a62, a63, a64, a65;
 		const double c7, a71, a72, a73, a74, a75, a76;
-		const double     e1, e2, e3, e4, e5, e6, e7;
+		const double      e1, e2, e3, e4, e5, e6, e7;
 		const int stepper_order, error_order;
 	};
 	constexpr butcher7TableauFSAL rkdp54 = { // Dormand–Prince 5(4)
@@ -42,7 +42,7 @@ namespace rk
 		const double c6, a61, a62, a63, a64, a65;
 		const double c7, a71, a72, a73, a74, a75, a76;
 		const double c8, a81, a82, a83, a84, a85, a86, a87;
-		const double     e1, e2, e3, e4, e5, e6, e7, e8;
+		const double      e1, e2, e3, e4, e5, e6, e7, e8;
 		const int stepper_order, error_order;
 	};
 	constexpr butcher8TableauFSAL rkbs54 = { // Bogacki-Shampine 5(4)

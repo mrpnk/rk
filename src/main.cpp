@@ -1,5 +1,5 @@
 #include "rungeKutta.h"
-#include "odesystem.h"
+#include "odeSystem.h"
 #include "sensor.h"
 #include <iostream>
 #include <fstream>
